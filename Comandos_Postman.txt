@@ -1,0 +1,42 @@
+------------POST-----------
+http://127.0.0.1:5000/Jogo
+---------------------------
+
+Body - raw - JSON
+
+[
+  {
+    "titulo": "The Witcher 3: Wild Hunt",
+    "genero": "RPG",
+    "desenvolvedor": "CD Projekt Red",
+    "plataforma": "PC"
+  },
+  {
+    "titulo": "God of War Ragnarök",
+    "genero": "Ação e Aventura",
+    "desenvolvedor": "Santa Monica Studio",
+    "plataforma": "PlayStation 5"
+  },
+  {
+    "titulo": "Minecraft",
+    "genero": "Sandbox",
+    "desenvolvedor": "Mojang Studios",
+    "plataforma": "Multiplataforma"
+  },
+  {
+    "titulo": "Valorant",
+    "genero": "FPS",
+    "desenvolvedor": "Riot Games",
+    "plataforma": "PC"
+  },
+  {
+    "titulo": "Forza Horizon 5",
+    "genero": "Corrida",
+    "desenvolvedor": "Playground Games",
+    "plataforma": "Xbox Series X/S"
+  }
+]
+------------GET------------
+http://127.0.0.1:5000/Jogo
+http://127.0.0.1:5000/Jogo/1
+---------------------------
